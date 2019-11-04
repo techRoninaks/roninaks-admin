@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE812DB923702497003FCB49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE812DB823702497003FCB49 /* AppDelegate.swift */; };
+		EE812DBB23702497003FCB49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE812DBA23702497003FCB49 /* SceneDelegate.swift */; };
+		EE812DBD23702497003FCB49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE812DBC23702497003FCB49 /* ViewController.swift */; };
+		EE812DC023702497003FCB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE812DBE23702497003FCB49 /* Main.storyboard */; };
+		EE812DC223702499003FCB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE812DC123702499003FCB49 /* Assets.xcassets */; };
+		EE812DC523702499003FCB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE812DC323702499003FCB49 /* LaunchScreen.storyboard */; };
+		EE812DD023702499003FCB49 /* RoninaksAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE812DCF23702499003FCB49 /* RoninaksAdminTests.swift */; };
+		EE812DDB23702499003FCB49 /* RoninaksAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE812DDA23702499003FCB49 /* RoninaksAdminUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE812DCC23702499003FCB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE812DAD23702497003FCB49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE812DB423702497003FCB49;
+			remoteInfo = RoninaksAdmin;
+		};
+		EE812DD723702499003FCB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE812DAD23702497003FCB49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE812DB423702497003FCB49;
+			remoteInfo = RoninaksAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE812DB523702497003FCB49 /* RoninaksAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoninaksAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE812DB823702497003FCB49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE812DBA23702497003FCB49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE812DBC23702497003FCB49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE812DBF23702497003FCB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE812DC123702499003FCB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE812DC423702499003FCB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE812DC623702499003FCB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE812DCB23702499003FCB49 /* RoninaksAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoninaksAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE812DCF23702499003FCB49 /* RoninaksAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoninaksAdminTests.swift; sourceTree = "<group>"; };
+		EE812DD123702499003FCB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE812DD623702499003FCB49 /* RoninaksAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoninaksAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE812DDA23702499003FCB49 /* RoninaksAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoninaksAdminUITests.swift; sourceTree = "<group>"; };
+		EE812DDC23702499003FCB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE812DB223702497003FCB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE812DC823702499003FCB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE812DD323702499003FCB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE812DAC23702497003FCB49 = {
+			isa = PBXGroup;
+			children = (
+				EE812DB723702497003FCB49 /* RoninaksAdmin */,
+				EE812DCE23702499003FCB49 /* RoninaksAdminTests */,
+				EE812DD923702499003FCB49 /* RoninaksAdminUITests */,
+				EE812DB623702497003FCB49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE812DB623702497003FCB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE812DB523702497003FCB49 /* RoninaksAdmin.app */,
+				EE812DCB23702499003FCB49 /* RoninaksAdminTests.xctest */,
+				EE812DD623702499003FCB49 /* RoninaksAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE812DB723702497003FCB49 /* RoninaksAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				EE812DB823702497003FCB49 /* AppDelegate.swift */,
+				EE812DBA23702497003FCB49 /* SceneDelegate.swift */,
+				EE812DBC23702497003FCB49 /* ViewController.swift */,
+				EE812DBE23702497003FCB49 /* Main.storyboard */,
+				EE812DC123702499003FCB49 /* Assets.xcassets */,
+				EE812DC323702499003FCB49 /* LaunchScreen.storyboard */,
+				EE812DC623702499003FCB49 /* Info.plist */,
+			);
+			path = RoninaksAdmin;
+			sourceTree = "<group>";
+		};
+		EE812DCE23702499003FCB49 /* RoninaksAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE812DCF23702499003FCB49 /* RoninaksAdminTests.swift */,
+				EE812DD123702499003FCB49 /* Info.plist */,
+			);
+			path = RoninaksAdminTests;
+			sourceTree = "<group>";
+		};
+		EE812DD923702499003FCB49 /* RoninaksAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE812DDA23702499003FCB49 /* RoninaksAdminUITests.swift */,
+				EE812DDC23702499003FCB49 /* Info.plist */,
+			);
+			path = RoninaksAdminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE812DB423702497003FCB49 /* RoninaksAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE812DDF23702499003FCB49 /* Build configuration list for PBXNativeTarget "RoninaksAdmin" */;
+			buildPhases = (
+				EE812DB123702497003FCB49 /* Sources */,
+				EE812DB223702497003FCB49 /* Frameworks */,
+				EE812DB323702497003FCB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoninaksAdmin;
+			productName = RoninaksAdmin;
+			productReference = EE812DB523702497003FCB49 /* RoninaksAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE812DCA23702499003FCB49 /* RoninaksAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE812DE223702499003FCB49 /* Build configuration list for PBXNativeTarget "RoninaksAdminTests" */;
+			buildPhases = (
+				EE812DC723702499003FCB49 /* Sources */,
+				EE812DC823702499003FCB49 /* Frameworks */,
+				EE812DC923702499003FCB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE812DCD23702499003FCB49 /* PBXTargetDependency */,
+			);
+			name = RoninaksAdminTests;
+			productName = RoninaksAdminTests;
+			productReference = EE812DCB23702499003FCB49 /* RoninaksAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE812DD523702499003FCB49 /* RoninaksAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE812DE523702499003FCB49 /* Build configuration list for PBXNativeTarget "RoninaksAdminUITests" */;
+			buildPhases = (
+				EE812DD223702499003FCB49 /* Sources */,
+				EE812DD323702499003FCB49 /* Frameworks */,
+				EE812DD423702499003FCB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE812DD823702499003FCB49 /* PBXTargetDependency */,
+			);
+			name = RoninaksAdminUITests;
+			productName = RoninaksAdminUITests;
+			productReference = EE812DD623702499003FCB49 /* RoninaksAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE812DAD23702497003FCB49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Roninaks Ventures Pvt Ltd";
+				TargetAttributes = {
+					EE812DB423702497003FCB49 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					EE812DCA23702499003FCB49 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = EE812DB423702497003FCB49;
+					};
+					EE812DD523702499003FCB49 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = EE812DB423702497003FCB49;
+					};
+				};
+			};
+			buildConfigurationList = EE812DB023702497003FCB49 /* Build configuration list for PBXProject "RoninaksAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE812DAC23702497003FCB49;
+			productRefGroup = EE812DB623702497003FCB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE812DB423702497003FCB49 /* RoninaksAdmin */,
+				EE812DCA23702499003FCB49 /* RoninaksAdminTests */,
+				EE812DD523702499003FCB49 /* RoninaksAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE812DB323702497003FCB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE812DC523702499003FCB49 /* LaunchScreen.storyboard in Resources */,
+				EE812DC223702499003FCB49 /* Assets.xcassets in Resources */,
+				EE812DC023702497003FCB49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE812DC923702499003FCB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE812DD423702499003FCB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE812DB123702497003FCB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE812DBD23702497003FCB49 /* ViewController.swift in Sources */,
+				EE812DB923702497003FCB49 /* AppDelegate.swift in Sources */,
+				EE812DBB23702497003FCB49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE812DC723702499003FCB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE812DD023702499003FCB49 /* RoninaksAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE812DD223702499003FCB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE812DDB23702499003FCB49 /* RoninaksAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE812DCD23702499003FCB49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE812DB423702497003FCB49 /* RoninaksAdmin */;
+			targetProxy = EE812DCC23702499003FCB49 /* PBXContainerItemProxy */;
+		};
+		EE812DD823702499003FCB49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE812DB423702497003FCB49 /* RoninaksAdmin */;
+			targetProxy = EE812DD723702499003FCB49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE812DBE23702497003FCB49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE812DBF23702497003FCB49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE812DC323702499003FCB49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE812DC423702499003FCB49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE812DDD23702499003FCB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE812DDE23702499003FCB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE812DE023702499003FCB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoninaksAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roninaks.RoninaksAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE812DE123702499003FCB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoninaksAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roninaks.RoninaksAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE812DE323702499003FCB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoninaksAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roninaks.RoninaksAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoninaksAdmin.app/RoninaksAdmin";
+			};
+			name = Debug;
+		};
+		EE812DE423702499003FCB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoninaksAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roninaks.RoninaksAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoninaksAdmin.app/RoninaksAdmin";
+			};
+			name = Release;
+		};
+		EE812DE623702499003FCB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoninaksAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roninaks.RoninaksAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoninaksAdmin;
+			};
+			name = Debug;
+		};
+		EE812DE723702499003FCB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoninaksAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roninaks.RoninaksAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoninaksAdmin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE812DB023702497003FCB49 /* Build configuration list for PBXProject "RoninaksAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE812DDD23702499003FCB49 /* Debug */,
+				EE812DDE23702499003FCB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE812DDF23702499003FCB49 /* Build configuration list for PBXNativeTarget "RoninaksAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE812DE023702499003FCB49 /* Debug */,
+				EE812DE123702499003FCB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE812DE223702499003FCB49 /* Build configuration list for PBXNativeTarget "RoninaksAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE812DE323702499003FCB49 /* Debug */,
+				EE812DE423702499003FCB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE812DE523702499003FCB49 /* Build configuration list for PBXNativeTarget "RoninaksAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE812DE623702499003FCB49 /* Debug */,
+				EE812DE723702499003FCB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE812DAD23702497003FCB49 /* Project object */;
+}

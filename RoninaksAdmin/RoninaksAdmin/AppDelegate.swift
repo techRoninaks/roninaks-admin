@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  roninaks-admin
+//  RoninaksAdmin
 //
-//  Created by Nihal Pradeep on 31/10/19.
+//  Created by Nihal Pradeep on 04/11/19.
 //  Copyright © 2019 Roninaks Ventures Pvt Ltd. All rights reserved.
 //
 

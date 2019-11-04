@@ -1,15 +1,15 @@
 //
-//  roninaks_adminTests.swift
-//  roninaks-adminTests
+//  RoninaksAdminTests.swift
+//  RoninaksAdminTests
 //
-//  Created by Nihal Pradeep on 31/10/19.
+//  Created by Nihal Pradeep on 04/11/19.
 //  Copyright © 2019 Roninaks Ventures Pvt Ltd. All rights reserved.
 //
 
 import XCTest
-@testable import roninaks_admin
+@testable import RoninaksAdmin
 
-class roninaks_adminTests: XCTestCase {
+class RoninaksAdminTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
